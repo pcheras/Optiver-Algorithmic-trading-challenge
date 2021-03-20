@@ -1,6 +1,7 @@
 from optibook.synchronous_client import Exchange
 import time
 import logging
+
 logger = logging.getLogger('client')
 logger.setLevel('INFO')
 
