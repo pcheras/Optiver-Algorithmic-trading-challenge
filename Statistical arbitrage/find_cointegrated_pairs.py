@@ -4,7 +4,7 @@ import numpy as np
 
 # Find cointegrated pairs from historical data to be used for developing a statistical arbitrage strategy
 
-data = pd.read_csv('cointegration/data.csv')
+data = pd.read_csv('cointegration/data.csv') # data file can be found in the master branch
 data.drop("Unnamed: 0", axis=1 , inplace = True)
 cointegrated_pairs = [] 
 
